@@ -1,0 +1,21 @@
+nr;materialname;soll_kategorie;anmerkung
+1;S 355;STAHL_PROFIL;exakter Regel-Treffer
+2;C 30/37;BETON_C30_37;exakter Regel-Treffer
+3;GL 24h;BSH;exakter Regel-Treffer
+4;Stahl S 355 | DIN EN 1993-1-1:2010-12;STAHL_PROFIL;RFEM-Langname mit Norm
+5;S355J2;STAHL_PROFIL;Gütegruppe angehängt
+6;S235JR+AR;STAHL_PROFIL;Lieferzustand angehängt
+7;Beton C30/37 | DIN EN 1992-1-1:2011-01;BETON_C30_37;RFEM-Langname mit Norm
+8;C25/30 XC4;BETON_C25_30;Expositionsklasse angehängt
+9;C 35/45 | EN 206;BETON_C35_45;andere Norm im Namen
+10;Brettschichtholz GL 28h;BSH;ausgeschrieben
+11;BSH GL24c;BSH;kombiniertes BSH
+12;Nadelholz C24 | DIN EN 338;VOLLHOLZ;RFEM-Langname mit Norm
+13;KVH C24;VOLLHOLZ;Abkürzung
+14;B500B;BETONSTAHL;ohne Leerzeichen
+15;Betonstahl B 500 A;BETONSTAHL;andere Duktilitätsklasse
+16;BSP CL24h;BSP;Brettsperrholz-Festigkeitsklasse
+17;LC 25/28;MENSCH;Leichtbeton, keine passende Kategorie
+18;Stahl;MENSCH;Profil oder Bewehrung? nicht entscheidbar
+19;Holz;MENSCH;Holzart und Produkt unbekannt
+20;Material 4;MENSCH;Platzhaltername aus dem Modell

@@ -25,6 +25,9 @@ User Text am Objekt: Stab, Querschnitt, Material, A_m2, Laenge_m,
 Wichte_kN_m3, Stabtyp, Gelenk_Anfang, Gelenk_Ende, Lager_Anfang, Lager_Ende.
 Zuerst alle vorhandenen Schlüssel auflisten und prüfen.
 
+### testfaelle.csv (Bonus)
+20 Materialnamen mit Soll-Kategorie: nr; materialname; soll_kategorie; anmerkung.
+
 ## Thema Mengenliste → CO2 (mengenliste/)
 
 ### Mengenliste_Beispielprojekt.xlsx
