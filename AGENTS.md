@@ -61,7 +61,7 @@ Einheiten stehen im Kopf. Knotenlisten der Linien können Bereiche enthalten.
 Zuerst die Struktur jedes Blatts ansehen und mir zeigen, dann erst parsen.
 
 ### Datenquelle C: Rhino-Modell (.3dm)
-Python-Paket rhino3dm. Jeder Stab ist eine Linie, ein Layer je Querschnitt.
+Im Browser mit rhino3dm.js (per CDN). Jeder Stab ist eine Linie, ein Layer je Querschnitt.
 User Text am Objekt: Stab, Querschnitt, Material, A_m2, Laenge_m,
 Wichte_kN_m3, Stabtyp, Gelenk_Anfang, Gelenk_Ende, Lager_Anfang, Lager_Ende.
 Zuerst alle vorhandenen Schlüssel auflisten und prüfen.
@@ -81,7 +81,7 @@ Abmessungen stehen oft nur im Text (d=25 cm, 30x60, L=6,50 m).
 Positionen ohne Tragwerksmaterial (Schalung, Dämmung, Beschichtung)
 bekommen die Kategorie NICHT_BILANZIERT.
 
-### profile.csv
+### daten/gemeinsam/profile.csv
 Stahlprofile: profil; g_kg_je_m; h_mm; b_mm; Wel_y_cm3. Für Positionen in Stück.
 
 ## Thema Re-Use-Matcher (daten/reuse)
@@ -98,7 +98,7 @@ Beschreibung (Freitext, unsauber), Länge [m], Stück, Zustand, Herkunft.
 Blatt „Daten“, Kopfzeile in Zeile 4. Spalten: Pos., Bauteil,
 erf. Wel,y [cm³], Länge [m], Stück.
 
-### profile.csv
+### daten/gemeinsam/profile.csv
 Stahlprofile: profil; g_kg_je_m; h_mm; b_mm; Wel_y_cm3. Ein Altteil passt,
 wenn Wel,y >= erforderlich und Länge >= benötigt (kürzen geht, verlängern
 nicht). Jedes Stück nur einmal verwenden.
