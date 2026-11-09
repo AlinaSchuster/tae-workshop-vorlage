@@ -1,0 +1,9 @@
+kategorie;beschreibung;oekobaudat_uuid;oekobaudat_name;version;deklarierte_einheit;kg_je_deklarierte_einheit;gwp_bezug;A1-A3;C3;C4;D
+STAHL_PROFIL;Baustahl, warmgewalzte Profile und Stabstahl (S235 bis S460);20c29cbd-f9a2-4518-a1ce-c681246c29c8;Baustahl: Profile und Stabstahl;00.03.000;1000 kg;1000,0;kgCO2e je kg;0,560;0,000;0,000;0,285
+BETONSTAHL;Betonstahl B500 (Stäbe, Matten);a8ebf8f2-2fcc-4431-b730-93bf5efd8111;Betonstahl in Stäben;00.00.007;1 kg;1,0;kgCO2e je kg;0,593;0,000;0,000;0,060
+BETON_C25_30;Normalbeton C25/30;a71e60a5-b64b-4715-ae8a-c8c8819149d2;Transportbeton C25/30;20.26.070;1 m3;2300,3;kgCO2e je m3;221,657;14,862;0,000;-3,984
+BETON_C30_37;Normalbeton C30/37;d6f982e3-beda-49f0-a298-694fcbf3ba38;Transportbeton C30/37;20.26.070;1 m3;2305,9;kgCO2e je m3;257,694;14,897;0,000;-3,994
+BETON_C35_45;Normalbeton C35/45;90999905-ace2-49ee-90f0-f2a649c8989e;Beton der Druckfestigkeitsklasse C35/45;00.02.000;1 m3;2400,0;kgCO2e je m3;220,000;5,050;0,000;-12,100
+BSH;Brettschichtholz (GL24h, GL28h, GL24c ...);86138863-3c1c-4345-9ae9-03ba28a5f9a7;Brettschichtholz Nadelholz (generisch);20.26.070;1 m3;515,2;kgCO2e je m3;-580,767;839,646;0,000;-274,756
+VOLLHOLZ;Nadelschnittholz und Konstruktionsvollholz (C24, C30 ...);6b363ddc-f127-4d44-9f4b-54daada07465;Konstruktionsvollholz (generisch, 15% Feuchte / 13% H2O);20.26.070;1 m3;529,0;kgCO2e je m3;-629,370;862,972;0,000;-274,849
+BSP;Brettsperrholz (CLT);bb838307-4509-4d98-864a-6cb96aaa39a6;Brettsperrholz;00.02.000;1 m3;470,0;kgCO2e je m3;-641,664;765,927;0,000;-386,107
